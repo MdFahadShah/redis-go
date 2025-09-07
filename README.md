@@ -121,7 +121,3 @@ redis-cli PING
 │   ├── store.go               # Thread-safe key-value store
 │   └── entry.go               # Defines key-value pair with optional expiry
 ```
-
-## Attribution
-
-This project was built as part of the [Codecrafters "Build Your Own HTTP Server" Challenge](https://app.codecrafters.io/courses/redis/overview)
