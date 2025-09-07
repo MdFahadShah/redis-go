@@ -50,11 +50,6 @@ A fully functional Redis clone built entirely from scratch using the Go standard
 - RESP protocol parser (array, bulk strings, simple strings, errors, integers)
 - Structured logging (with `slog`)
 
-### In-Memory Store
-
-- Thread-safe key-value store using `sync.RWMutex`
-- Optional TTL support via expiry timestamps
-- Clean handling of expired keys
 
 ### Transaction System
 
